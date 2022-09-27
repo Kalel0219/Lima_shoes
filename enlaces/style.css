@@ -272,6 +272,9 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
         grid-gap: 30px;
         padding: 35px 0px;
     }
+    .pie_pagina .grupo-1 .box figure img {
+        width: 300px;
+    }
 }
 
 /*Galeria de imagenes*/
@@ -794,6 +797,7 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
 
     .logo {
         padding-left: 1.25rem;
+        width: 300px;
     }
 
     .ancho ul li a {

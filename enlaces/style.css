@@ -265,7 +265,7 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
     font-size: 15px;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1200px) {
     .pie_pagina .grupo-1 {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
@@ -373,7 +373,7 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
 .img__galeria:nth-child(17) {
     grid-row-start: span 2;
 }
-@media (max-width:768px){
+@media (max-width:1200px){
     .img__galeria:nth-child(1) {
         grid-row-start: span 1;
         grid-column-start: span 2;
@@ -544,7 +544,7 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
     grid-row-start: span 3;
 }
 
-@media (max-width:768px) {
+@media (max-width:1200px) {
     .img__galeria_hombre:nth-child(1) {
         grid-row-start: span 2;
         grid-column-start: span 2;
@@ -692,7 +692,7 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
 .img__galeria_mujeres:nth-child(15) {
     grid-row-start: span 2;
 }
-@media (max-width:768px){
+@media (max-width:1200px){
     .img__galeria_mujeres:nth-child(1) {
         grid-row-start: span 3;
         grid-column-start: span 2;
@@ -782,7 +782,7 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
 
 
 
-@media (max-width:1200px) {
+@media (max-width:300px) {
     body {
         font-size: 16px;
     }
@@ -792,7 +792,7 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
     }
 }
 
-@media  (max-width: 992px) {
+@media  (max-width: 768px) {
 
 
     .logo {
@@ -804,7 +804,7 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .boton {
         display: block;
     }

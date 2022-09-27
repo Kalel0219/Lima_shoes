@@ -782,14 +782,11 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
 
 
 
-@media (max-width:300px) {
+@media (max-width:1300px) {
     body {
-        font-size: 16px;
+        font-size: 18px;
     }
 
-    .nosotros_titulo {
-        text-align: center;
-    }
 }
 
 @media  (max-width: 768px) {
@@ -828,7 +825,7 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
     }
 
     .ancho ul li a {
-        font-size: 1.25rem;
+        font-size: 1.80rem;
     }
 
     .ancho ul li a:hover,

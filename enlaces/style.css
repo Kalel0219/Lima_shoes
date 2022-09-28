@@ -789,6 +789,9 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
     body {
         font-size: 18px;
     }
+    .logo img {
+        width: 250px;
+    }
 
 }
 
@@ -797,7 +800,15 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
 
     .logo {
         padding-left: 1.25rem;
-        width: 300px;
+        
+    }
+    .logo img {
+        width: 250px;
+    }
+    .ancho {
+        background-color: #FFD9C0;
+        height: 8rem;
+        width: 100%;
     }
 
     .ancho ul li a {
@@ -808,6 +819,12 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
 @media (max-width: 1400px) {
     .boton {
         display: block;
+        padding-top: 15px;
+    }
+    .ancho {
+        background-color: #FFD9C0;
+        height: 8rem;
+        width: 100%;
     }
 
     .navegacion {
@@ -829,7 +846,7 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
     }
 
     .ancho ul li a {
-        font-size: 1.80rem;
+        font-size: 2rem;
     }
 
     .ancho ul li a:hover,

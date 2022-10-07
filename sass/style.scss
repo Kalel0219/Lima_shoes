@@ -201,8 +201,8 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
 .pie_pagina {
     width: 100%;
     background-color: #4ea8bc;
-}
 
+}
 .pie_pagina .grupo-1 {
     width: 100%;
     max-width: 1200px;
@@ -271,6 +271,7 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         padding: 35px 0px;
+        text-align: center;
     }
     .pie_pagina .grupo-1 .box figure img {
         width: 300px;
@@ -482,15 +483,16 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
 
 }
 
-.img__galeria_hombre {
-    width: 100%;
-}
-
 .imagenes_container_hombre img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+.img__galeria_hombre {
+    width: 100%;
+}
+
+
 
 .img__galeria_hombre:nth-child(1) {
     grid-row-start: span 2;
@@ -612,7 +614,7 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
     }
 }
 
-/*Galerioa fotos de mujeres*/
+/*Galeria fotos de mujeres*/
 .imagenes_container_mujeres {
     display: grid;
     grid-gap: 0.3125rem;
@@ -926,12 +928,14 @@ input[id="3"]:checked~.slider_paginado .slider_img_pg[for="3"] {
     border-radius: 5px;
     height: 40px;
     width: 145px;
-    
-}
 
-.btn1:hover {
+    &:hover {
     -webkit-box-shadow: -2px -2px 52px 3px rgba(0, 0, 0, 0.52);
     -moz-box-shadow: -2px -2px 52px 3px rgba(0, 0, 0, 0.52);
     box-shadow: -2px -2px 52px 3px rgba(0, 0, 0, 0.52);
 }
+
+    
+}
+
 

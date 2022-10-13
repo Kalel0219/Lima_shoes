@@ -1,4 +1,4 @@
-/* line 1, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 1, ../PROYECTO FINAL/sass/style.scss */
 * {
   margin: 0;
   padding: 0;
@@ -6,40 +6,40 @@
   text-decoration: none;
   list-style: none; }
 
-/* line 9, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 12, ../PROYECTO FINAL/sass/style.scss */
 body {
-  font-family: 'Caveat Brush', cursive;
-  font-family: 'Righteous', cursive !important;
+  font-family: "Caveat Brush", cursive;
+  font-family: "Righteous", cursive !important;
   width: auto;
   display: contents;
   margin: 0;
   font-size: 18px;
-  background-color: #C7C7C7; }
+  background-color: #c7c7c7; }
 
 /* Barra de navegacion */
-/* line 19, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 22, ../PROYECTO FINAL/sass/style.scss */
 .ancho {
   background-color: #FFD9C0;
   height: 6.5625rem;
   width: 100%; }
 
-/* line 25, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 30, ../PROYECTO FINAL/sass/style.scss */
 .logo {
   position: absolute;
   padding: 0px 20px; }
 
-/* line 30, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 35, ../PROYECTO FINAL/sass/style.scss */
 .ancho ul {
   float: right;
   margin-right: 20px; }
 
-/* line 35, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 40, ../PROYECTO FINAL/sass/style.scss */
 .ancho ul li {
   display: inline-block;
   line-height: 6.5625rem;
   margin: 0 0.3125rem; }
 
-/* line 43, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 48, ../PROYECTO FINAL/sass/style.scss */
 .ancho ul li a {
   color: #088924;
   font-size: 1.125rem;
@@ -48,13 +48,13 @@ body {
   text-transform: uppercase;
   text-decoration: none; }
 
-/* line 52, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 57, ../PROYECTO FINAL/sass/style.scss */
 .navegacion li a.decoracion_enlace:hover {
   background: greenyellow;
   transition: .5s;
   border-radius: 10px; }
 
-/* line 58, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 63, ../PROYECTO FINAL/sass/style.scss */
 .boton {
   font-size: 1.875rem;
   color: #088924;
@@ -64,18 +64,18 @@ body {
   cursor: pointer;
   display: none; }
 
-/* line 69, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 74, ../PROYECTO FINAL/sass/style.scss */
 #check {
   display: none; }
 
 /* slider inicio*/
-/* line 74, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 79, ../PROYECTO FINAL/sass/style.scss */
 .slider_gral {
   display: flex;
   align-items: center;
   justify-content: center; }
 
-/* line 81, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 86, ../PROYECTO FINAL/sass/style.scss */
 .slider {
   position: relative;
   max-width: 1420px;
@@ -83,7 +83,7 @@ body {
   border-radius: 6px;
   overflow: hidden; }
 
-/* line 90, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 95, ../PROYECTO FINAL/sass/style.scss */
 .slider_container {
   display: flex;
   transform: translate3d(0, 0, 0);
@@ -94,7 +94,7 @@ body {
   animation-fill-mode: forwards;
   animation-iteration-count: infinite; }
 
-/* line 102, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 107, ../PROYECTO FINAL/sass/style.scss */
 .slider_img {
   position: relative;
   display: flex;
@@ -103,7 +103,7 @@ body {
   flex-grow: 0;
   max-width: 100%; }
 
-/* line 112, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 117, ../PROYECTO FINAL/sass/style.scss */
 .slider_paginado {
   position: absolute;
   bottom: 20px;
@@ -114,7 +114,7 @@ body {
   justify-content: center;
   width: 100%; }
 
-/* line 123, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 128, ../PROYECTO FINAL/sass/style.scss */
 .slider_img_pg {
   display: flex;
   flex-direction: column;
@@ -130,11 +130,11 @@ body {
   text-align: center;
   transition: all 300ms; }
 
-/* line 140, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 145, ../PROYECTO FINAL/sass/style.scss */
 .slider_img_pg:hover {
   transform: scale(2); }
 
-/* line 144, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 149, ../PROYECTO FINAL/sass/style.scss */
 .slider_img_pg img {
   display: inline-block;
   max-width: none;
@@ -143,35 +143,35 @@ body {
   opacity: 0;
   transition: all 300ms; }
 
-/* line 153, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 158, ../PROYECTO FINAL/sass/style.scss */
 .slider_img_pg:hover img {
   opacity: 1;
   transform: scale(1); }
 
-/* line 158, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 163, ../PROYECTO FINAL/sass/style.scss */
 input[id="1"]:checked ~ .slider_container {
   animation: none;
   transform: translate3d(0, 0, 0); }
 
-/* line 163, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 168, ../PROYECTO FINAL/sass/style.scss */
 input[id="1"]:checked ~ .slider_paginado .slider_img_pg[for="1"] {
   background: #fff; }
 
-/* line 167, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 172, ../PROYECTO FINAL/sass/style.scss */
 input[id="2"]:checked ~ .slider_container {
   animation: none;
   transform: translate3d(calc(-100% * 1), 0, 0); }
 
-/* line 172, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 177, ../PROYECTO FINAL/sass/style.scss */
 input[id="2"]:checked ~ .slider_paginado .slider_img_pg[for="2"] {
   background: #fff; }
 
-/* line 176, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 181, ../PROYECTO FINAL/sass/style.scss */
 input[id="3"]:checked ~ .slider_container {
   animation: none;
   transform: translate3d(calc(-200% * 1), 0, 0); }
 
-/* line 181, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 186, ../PROYECTO FINAL/sass/style.scss */
 input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   background: #fff; }
 
@@ -184,12 +184,12 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
     transform: translate3d(calc(-100% * 2), 0, 0); } }
 
 /*footer*/
-/* line 201, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 206, ../PROYECTO FINAL/sass/style.scss */
 .pie_pagina {
   width: 100%;
   background-color: #4ea8bc; }
 
-/* line 206, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 211, ../PROYECTO FINAL/sass/style.scss */
 .pie_pagina .grupo-1 {
   width: 100%;
   max-width: 1200px;
@@ -199,7 +199,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   grid-gap: 50px;
   padding: 45px 0px; }
 
-/* line 216, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 221, ../PROYECTO FINAL/sass/style.scss */
 .pie_pagina .grupo-1 .box figure {
   width: 100%;
   height: 100%;
@@ -207,21 +207,21 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   justify-content: center;
   align-items: center; }
 
-/* line 224, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 229, ../PROYECTO FINAL/sass/style.scss */
 .pie_pagina .grupo-1 .box figure img {
   width: 250px; }
 
-/* line 228, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 233, ../PROYECTO FINAL/sass/style.scss */
 .pie_pagina .grupo-1 .box h2 {
   color: black;
   margin-bottom: 25px;
   font-size: 20px; }
 
-/* line 235, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 240, ../PROYECTO FINAL/sass/style.scss */
 .pie_pagina .grupo-1 .box p {
   color: #fcd8d8; }
 
-/* line 240, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 245, ../PROYECTO FINAL/sass/style.scss */
 .pie_pagina .grupo-1 .red-social a {
   display: inline-block;
   text-decoration: none;
@@ -234,53 +234,53 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   text-align: center;
   transition: all 300ms ease; }
 
-/* line 253, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 258, ../PROYECTO FINAL/sass/style.scss */
 .pie_pagina .grupo-1 .red-social a:hover {
   color: aqua; }
 
-/* line 257, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 262, ../PROYECTO FINAL/sass/style.scss */
 .pie_pagina .grupo-2 {
   background-color: #0a1a2a;
   padding: 15px 10px;
   text-align: center;
   color: #fff; }
 
-/* line 264, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 269, ../PROYECTO FINAL/sass/style.scss */
 .pie_pagina .grupo-2 small {
   font-size: 15px; }
 
 @media screen and (max-width: 1400px) {
-  /* line 269, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 2, ../PROYECTO FINAL/sass/_responsive.scss */
   .pie_pagina .grupo-1 {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px;
     text-align: center; }
-  /* line 276, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 9, ../PROYECTO FINAL/sass/_responsive.scss */
   .pie_pagina .grupo-1 .box figure img {
     width: 300px; } }
 
 /*Galeria de imagenes*/
-/* line 283, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 277, ../PROYECTO FINAL/sass/style.scss */
 .titulo_galeria_fotos h2 {
   background-color: #75ffcf;
   text-align: center;
   font-size: 3.125rem; }
 
-/* line 289, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 283, ../PROYECTO FINAL/sass/style.scss */
 .img_galeria_fotos {
   transform: scale(1);
   transition: transform 0.5s;
   cursor: pointer;
   position: relative; }
 
-/* line 296, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 290, ../PROYECTO FINAL/sass/style.scss */
 .img_galeria_fotos:hover {
   transform: scale(1.1);
   z-index: 2; }
 
-/* line 300, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 294, ../PROYECTO FINAL/sass/style.scss */
 .imagenes_container {
   display: grid;
   grid-gap: 0.3125rem;
@@ -289,159 +289,159 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   padding: 1.25rem;
   width: 100%; }
 
-/* line 310, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 304, ../PROYECTO FINAL/sass/style.scss */
 .imagenes_container img {
   width: 100%;
   height: 100%;
   object-fit: cover; }
 
-/* line 316, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 310, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria:nth-child(1) {
   grid-row-start: span 2; }
 
-/* line 320, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 314, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria:nth-child(2) {
   grid-row-start: span 2; }
 
-/* line 324, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 318, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria:nth-child(3) {
   grid-row-start: span 4; }
 
-/* line 328, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 322, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria:nth-child(4) {
   grid-row-start: span 2; }
 
-/* line 332, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 326, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria:nth-child(5) {
   grid-row-start: span 2; }
 
-/* line 336, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 330, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria:nth-child(6) {
   grid-row-start: span 4; }
 
-/* line 340, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 334, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria:nth-child(7) {
   grid-row-start: span 4; }
 
-/* line 344, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 338, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria:nth-child(8) {
   grid-row-start: span 2; }
 
-/* line 348, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 342, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria:nth-child(9) {
   grid-row-start: span 2; }
 
-/* line 352, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 346, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria:nth-child(10) {
   grid-row-start: span 2; }
 
-/* line 356, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 350, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria:nth-child(11) {
   grid-column-start: span 2;
   grid-row-start: span 4; }
 
-/* line 361, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 355, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria:nth-child(13) {
   grid-row-start: span 4; }
 
-/* line 365, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 359, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria:nth-child(14) {
   grid-row-start: span 2; }
 
-/* line 369, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 363, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria:nth-child(15) {
   grid-row-start: span 2; }
 
-/* line 373, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 367, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria:nth-child(16) {
   grid-row-start: span 2; }
 
-/* line 377, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 371, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria:nth-child(17) {
   grid-row-start: span 2; }
 
 @media (max-width: 1400px) {
-  /* line 381, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 375, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(1) {
     grid-row-start: span 1;
     grid-column-start: span 2; }
-  /* line 386, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 380, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(2) {
     grid-row-start: span 1;
     grid-column-start: span 2; }
-  /* line 391, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 385, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(3) {
     grid-row-start: span 4;
     grid-column-start: span 2; }
-  /* line 396, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 390, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(4) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 401, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 395, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(5) {
     grid-row-start: span 1;
     grid-column-start: span 2; }
-  /* line 406, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 400, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(6) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 411, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 405, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(7) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 416, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 410, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(8) {
     grid-row-start: span 3;
     grid-column-start: span 2; }
-  /* line 421, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 415, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(9) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 426, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 420, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(10) {
     grid-row-start: span 3;
     grid-column-start: span 4; }
-  /* line 431, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 425, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(11) {
     grid-column-start: span 4;
     grid-row-start: span 2; }
-  /* line 435, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 429, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(12) {
     grid-column-start: span 2;
     grid-row-start: span 2; }
-  /* line 440, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 434, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(13) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 445, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 439, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(14) {
     grid-row-start: span 2;
     grid-column-start: span 4; }
-  /* line 450, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 444, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(15) {
     grid-row-start: span 2;
     grid-column-start: span 4; }
-  /* line 455, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 449, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(16) {
     grid-row-start: span 1;
     grid-column-start: span 2; }
-  /* line 460, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 454, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(17) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 464, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 458, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria:nth-child(18) {
     grid-row-start: span 1;
     grid-column-start: span 2; } }
 
 /*galeria fotos de Hombres*/
-/* line 470, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 464, ../PROYECTO FINAL/sass/style.scss */
 .titulo_hombre h2 {
   background-color: #75ffcf;
   text-align: center;
   font-size: 3.125rem; }
 
-/* line 476, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 470, ../PROYECTO FINAL/sass/style.scss */
 .imagenes_container_hombre {
   display: grid;
   grid-gap: 0.3125rem;
@@ -450,121 +450,121 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   padding: 1.25rem;
   width: 100%; }
 
-/* line 486, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 480, ../PROYECTO FINAL/sass/style.scss */
 .imagenes_container_hombre img {
   width: 100%;
   height: 100%;
   object-fit: cover; }
 
-/* line 491, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 485, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_hombre {
   width: 100%; }
 
-/* line 497, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 491, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_hombre:nth-child(1) {
   grid-row-start: span 2; }
 
-/* line 501, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 495, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_hombre:nth-child(2) {
   grid-row-start: span 2; }
 
-/* line 505, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 499, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_hombre:nth-child(3) {
   grid-row-start: span 4; }
 
-/* line 509, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 503, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_hombre:nth-child(4) {
   grid-row-start: span 2; }
 
-/* line 513, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 507, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_hombre:nth-child(5) {
   grid-row-start: span 3; }
 
-/* line 518, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 512, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_hombre:nth-child(6) {
   grid-row-start: span 2; }
 
-/* line 523, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 517, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_hombre:nth-child(7) {
   grid-row-start: span 3;
   grid-column-start: span 1; }
 
-/* line 528, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 522, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_hombre:nth-child(8) {
   grid-row-start: span 2; }
 
-/* line 532, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 526, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_hombre:nth-child(9) {
   grid-row-start: span 2; }
 
-/* line 536, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 530, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_hombre:nth-child(10) {
   grid-row-start: span 4; }
 
-/* line 540, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 534, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_hombre:nth-child(11) {
   grid-row-start: span 4; }
 
-/* line 544, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 538, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_hombre:nth-child(12) {
   grid-row-start: span 3; }
 
-/* line 548, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 542, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_hombre:nth-child(13) {
   grid-row-start: span 3; }
 
 @media (max-width: 1400px) {
-  /* line 553, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 547, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_hombre:nth-child(1) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 558, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 552, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_hombre:nth-child(2) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 563, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 557, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_hombre:nth-child(3) {
     grid-row-start: span 2; }
-  /* line 567, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 561, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_hombre:nth-child(4) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 572, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 566, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_hombre:nth-child(5) {
     grid-row-start: span 2; }
-  /* line 577, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 571, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_hombre:nth-child(6) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 583, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 577, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_hombre:nth-child(7) {
     grid-row-start: span 3;
     grid-column-start: span 2; }
-  /* line 588, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 582, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_hombre:nth-child(8) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 593, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 587, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_hombre:nth-child(9) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 598, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 592, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_hombre:nth-child(10) {
     grid-row-start: span 1; }
-  /* line 602, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 596, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_hombre:nth-child(11) {
     grid-row-start: span 1; }
-  /* line 606, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 600, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_hombre:nth-child(12) {
     grid-row-start: span 3;
     grid-column-start: span 2; }
-  /* line 611, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 605, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_hombre:nth-child(13) {
     grid-row-start: span 3;
     grid-column-start: span 2; } }
 
 /*Galeria fotos de mujeres*/
-/* line 618, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 612, ../PROYECTO FINAL/sass/style.scss */
 .imagenes_container_mujeres {
   display: grid;
   grid-gap: 0.3125rem;
@@ -573,182 +573,182 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   padding: 1.25rem;
   width: 100%; }
 
-/* line 628, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 622, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_mujeres {
   width: 100%; }
 
-/* line 632, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 626, ../PROYECTO FINAL/sass/style.scss */
 .imagenes_container_mujeres img {
   width: 100%;
   height: 100%;
   object-fit: cover; }
 
-/* line 638, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 632, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_mujeres:nth-child(1) {
   grid-row-start: span 3; }
 
-/* line 642, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 636, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_mujeres:nth-child(2) {
   grid-row-start: span 3; }
 
-/* line 646, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 640, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_mujeres:nth-child(3) {
   grid-row-start: span 2;
   grid-column-start: span 2; }
 
-/* line 651, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 645, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_mujeres:nth-child(4) {
   grid-row-start: span 4; }
 
-/* line 655, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 649, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_mujeres:nth-child(5) {
   grid-row-start: span 4; }
 
-/* line 660, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 654, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_mujeres:nth-child(6) {
   grid-row-start: span 3;
   grid-column-start: span 2; }
 
-/* line 666, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 660, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_mujeres:nth-child(7) {
   grid-row-start: span 4;
   grid-column-start: span 2; }
 
-/* line 671, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 665, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_mujeres:nth-child(8) {
   grid-row-start: span 2; }
 
-/* line 675, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 669, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_mujeres:nth-child(9) {
   grid-row-start: span 2; }
 
-/* line 679, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 673, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_mujeres:nth-child(10) {
   grid-row-start: span 4; }
 
-/* line 683, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 677, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_mujeres:nth-child(11) {
   grid-row-start: span 4; }
 
-/* line 687, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 681, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_mujeres:nth-child(12) {
   grid-row-start: span 4; }
 
-/* line 691, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 685, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_mujeres:nth-child(13) {
   grid-row-start: span 4; }
 
-/* line 694, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 688, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_mujeres:nth-child(14) {
   grid-row-start: span 2; }
 
-/* line 697, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 691, ../PROYECTO FINAL/sass/style.scss */
 .img__galeria_mujeres:nth-child(15) {
   grid-row-start: span 2; }
 
 @media (max-width: 1400px) {
-  /* line 701, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 695, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_mujeres:nth-child(1) {
     grid-row-start: span 3;
     grid-column-start: span 2; }
-  /* line 707, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 701, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_mujeres:nth-child(2) {
     grid-row-start: span 3;
     grid-column-start: span 2; }
-  /* line 712, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 706, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_mujeres:nth-child(3) {
     grid-row-start: span 1;
     grid-column-start: span 2; }
-  /* line 717, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 711, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_mujeres:nth-child(4) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 722, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 716, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_mujeres:nth-child(5) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 728, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 722, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_mujeres:nth-child(6) {
     grid-row-start: span 1;
     grid-column-start: span 2; }
-  /* line 734, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 728, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_mujeres:nth-child(7) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 739, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 733, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_mujeres:nth-child(8) {
     grid-row-start: span 1;
     grid-column-start: span 2; }
-  /* line 744, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 738, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_mujeres:nth-child(9) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 749, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 743, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_mujeres:nth-child(10) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 754, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 748, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_mujeres:nth-child(11) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 759, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 753, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_mujeres:nth-child(12) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 764, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 758, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_mujeres:nth-child(13) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
-  /* line 768, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 762, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_mujeres:nth-child(14) {
     grid-row-start: span 3;
     grid-column-start: span 2; }
-  /* line 772, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 766, ../PROYECTO FINAL/sass/style.scss */
   .img__galeria_mujeres:nth-child(15) {
     grid-row-start: span 2;
     grid-column-start: span 2; } }
 
-/* line 779, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 773, ../PROYECTO FINAL/sass/style.scss */
 .titulo_mujeres h2 {
   background-color: #75ffcf;
   text-align: center;
   font-size: 3.125rem; }
 
 @media (max-width: 1300px) {
-  /* line 791, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 785, ../PROYECTO FINAL/sass/style.scss */
   body {
     font-size: 18px; }
-  /* line 794, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 788, ../PROYECTO FINAL/sass/style.scss */
   .logo img {
     width: 250px; } }
 
 @media (max-width: 768px) {
-  /* line 803, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 797, ../PROYECTO FINAL/sass/style.scss */
   .logo {
     padding-left: 1.25rem; }
-  /* line 807, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 801, ../PROYECTO FINAL/sass/style.scss */
   .logo img {
     width: 250px; }
-  /* line 810, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 804, ../PROYECTO FINAL/sass/style.scss */
   .ancho {
     background-color: #FFD9C0;
     height: 8rem;
     width: 100%; }
-  /* line 816, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 810, ../PROYECTO FINAL/sass/style.scss */
   .ancho ul li a {
     font-size: 1rem; } }
 
 @media (max-width: 1400px) {
-  /* line 822, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 816, ../PROYECTO FINAL/sass/style.scss */
   .boton {
     display: block;
     padding-top: 15px; }
-  /* line 826, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 820, ../PROYECTO FINAL/sass/style.scss */
   .ancho {
     background-color: #FFD9C0;
     height: 8rem;
     width: 100%; }
-  /* line 832, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 826, ../PROYECTO FINAL/sass/style.scss */
   .navegacion {
     position: fixed;
     width: 100%;
@@ -759,36 +759,36 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
     text-align: center;
     transition: all .5s;
     z-index: 2; }
-  /* line 844, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 838, ../PROYECTO FINAL/sass/style.scss */
   .ancho ul li {
     display: block;
     margin: 3.125rem 0;
     line-height: 1.875rem; }
-  /* line 850, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 844, ../PROYECTO FINAL/sass/style.scss */
   .ancho ul li a {
     font-size: 2rem; }
-  /* line 854, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 848, ../PROYECTO FINAL/sass/style.scss */
   .ancho ul li a:hover,
   .ancho ul li a.active {
     background: none;
     color: #00a6ff; }
-  /* line 860, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 854, ../PROYECTO FINAL/sass/style.scss */
   #check:checked ~ ul {
     left: 0; } }
 
 /*Contacto*/
-/* line 870, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 864, ../PROYECTO FINAL/sass/style.scss */
 .nosotros_ {
   text-align: center !important;
   font-size: 20px !important; }
 
-/* line 877, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 871, ../PROYECTO FINAL/sass/style.scss */
 .contact {
   background-size: 100% 100%;
   width: 100%;
   height: 100vh; }
 
-/* line 883, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 877, ../PROYECTO FINAL/sass/style.scss */
 .head {
   background-color: #ca35ca;
   border-radius: 5px;
@@ -797,7 +797,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   -moz-box-shadow: -2px -2px 52px 3px rgba(0, 0, 0, 0.52);
   box-shadow: -2px -2px 52px 3px rgba(0, 0, 0, 0.52); }
 
-/* line 893, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 887, ../PROYECTO FINAL/sass/style.scss */
 .effect-1 {
   border: 0;
   outline: none;
@@ -805,7 +805,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   padding: 7px 0;
   border-bottom: 1px solid #ccc; }
 
-/* line 901, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 895, ../PROYECTO FINAL/sass/style.scss */
 .effect-1 ~ .focus-border {
   position: absolute;
   bottom: 0;
@@ -815,17 +815,17 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   background-color: #ca35ca;
   transition: 0.4s; }
 
-/* line 912, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 906, ../PROYECTO FINAL/sass/style.scss */
 .effect-1:focus ~ .focus-border {
   width: 100%;
   transition: 0.4s;
   left: 0; }
 
-/* line 918, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 912, ../PROYECTO FINAL/sass/style.scss */
 .form-row {
   display: flex; }
 
-/* line 923, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+/* line 917, ../PROYECTO FINAL/sass/style.scss */
 .btn1 {
   background: #ca35ca;
   color: white;
@@ -834,7 +834,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   border-radius: 5px;
   height: 40px;
   width: 145px; }
-  /* line 932, ../../../../../Desktop/PROYECTO FINAL/sass/style.scss */
+  /* line 926, ../PROYECTO FINAL/sass/style.scss */
   .btn1:hover {
     -webkit-box-shadow: -2px -2px 52px 3px rgba(0, 0, 0, 0.52);
     -moz-box-shadow: -2px -2px 52px 3px rgba(0, 0, 0, 0.52);

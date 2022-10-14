@@ -19,7 +19,7 @@ body {
 /* Barra de navegacion */
 /* line 21, ../PROYECTO FINAL/sass/style.scss */
 .ancho {
-  background-color: #FFD9C0;
+  background-color: #fbf2cf;
   height: 6.5625rem;
   width: 100%; }
   /* line 26, ../PROYECTO FINAL/sass/style.scss */
@@ -33,7 +33,7 @@ body {
       margin: 0 0.3125rem; }
       /* line 35, ../PROYECTO FINAL/sass/style.scss */
       .ancho ul li a {
-        color: #088924;
+        color: black;
         font-size: 1.125rem;
         padding: 0.4375rem 0.8125rem;
         border-radius: 3px;
@@ -47,14 +47,14 @@ body {
 
 /* line 52, ../PROYECTO FINAL/sass/style.scss */
 .navegacion li a.decoracion_enlace:hover {
-  background: greenyellow;
+  background: #c6ebc5;
   transition: 0.5s;
   border-radius: 10px; }
 
 /* line 58, ../PROYECTO FINAL/sass/style.scss */
 .boton {
   font-size: 1.875rem;
-  color: #088924;
+  color: #a1c298;
   float: right;
   line-height: 6.5625rem;
   margin-right: 2.5rem;
@@ -182,7 +182,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
 /* line 194, ../PROYECTO FINAL/sass/style.scss */
 .pie_pagina {
   width: 100%;
-  background-color: #4ea8bc; }
+  background-color: #c6ebc5; }
   /* line 197, ../PROYECTO FINAL/sass/style.scss */
   .pie_pagina .grupo-1 {
     width: 100%;
@@ -209,7 +209,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
       font-size: 20px; }
     /* line 225, ../PROYECTO FINAL/sass/style.scss */
     .pie_pagina .grupo-1 .box p {
-      color: #fcd8d8; }
+      color: black; }
     /* line 229, ../PROYECTO FINAL/sass/style.scss */
     .pie_pagina .grupo-1 .red-social a {
       display: inline-block;
@@ -227,10 +227,10 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
         color: aqua; }
   /* line 247, ../PROYECTO FINAL/sass/style.scss */
   .pie_pagina .grupo-2 {
-    background-color: #0a1a2a;
+    background-color: #a1c298;
     padding: 15px 10px;
     text-align: center;
-    color: #fff; }
+    color: black; }
     /* line 253, ../PROYECTO FINAL/sass/style.scss */
     .pie_pagina .grupo-2 small {
       font-size: 15px; }
@@ -421,7 +421,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
 /*galeria fotos de Hombres*/
 /* line 453, ../PROYECTO FINAL/sass/style.scss */
 .titulo_hombre h2 {
-  background-color: #75ffcf;
+  background-color: #a1c298;
   text-align: center;
   font-size: 3.125rem; }
 
@@ -692,7 +692,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
 
 /* line 749, ../PROYECTO FINAL/sass/style.scss */
 .titulo_mujeres h2 {
-  background-color: #75ffcf;
+  background-color: #a1c298;
   text-align: center;
   font-size: 3.125rem; }
 
@@ -713,7 +713,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
     width: 250px; }
   /* line 771, ../PROYECTO FINAL/sass/style.scss */
   .ancho {
-    background-color: #ffd9c0;
+    background-color: #fbf2cf;
     height: 8rem;
     width: 100%; }
   /* line 777, ../PROYECTO FINAL/sass/style.scss */
@@ -721,56 +721,57 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
     font-size: 1rem; } }
 
 @media (max-width: 1400px) {
-  /* line 783, ../PROYECTO FINAL/sass/style.scss */
+  /* line 784, ../PROYECTO FINAL/sass/style.scss */
   .boton {
     display: block;
     padding-top: 15px; }
-  /* line 787, ../PROYECTO FINAL/sass/style.scss */
+  /* line 788, ../PROYECTO FINAL/sass/style.scss */
   .ancho {
-    background-color: #ffd9c0;
+    background-color: #fbf2cf;
     height: 8rem;
     width: 100%; }
-  /* line 793, ../PROYECTO FINAL/sass/style.scss */
+  /* line 794, ../PROYECTO FINAL/sass/style.scss */
   .navegacion {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #2c3e50;
+    background: #a1c298;
     top: 5rem;
     left: -100%;
     text-align: center;
     transition: all 0.5s;
     z-index: 2; }
-  /* line 805, ../PROYECTO FINAL/sass/style.scss */
+  /* line 806, ../PROYECTO FINAL/sass/style.scss */
   .ancho ul li {
     display: block;
     margin: 3.125rem 0;
     line-height: 1.875rem; }
-  /* line 811, ../PROYECTO FINAL/sass/style.scss */
+  /* line 812, ../PROYECTO FINAL/sass/style.scss */
   .ancho ul li a {
-    font-size: 2rem; }
-  /* line 815, ../PROYECTO FINAL/sass/style.scss */
+    font-size: 2rem;
+    color: #088924; }
+  /* line 817, ../PROYECTO FINAL/sass/style.scss */
   .ancho ul li a:hover,
   .ancho ul li a.active {
     background: none;
-    color: #00a6ff; }
-  /* line 821, ../PROYECTO FINAL/sass/style.scss */
+    color: #fa7070; }
+  /* line 823, ../PROYECTO FINAL/sass/style.scss */
   #check:checked ~ ul {
     left: 0; } }
 
 /*Contacto*/
-/* line 827, ../PROYECTO FINAL/sass/style.scss */
+/* line 829, ../PROYECTO FINAL/sass/style.scss */
 .nosotros_ {
   text-align: center !important;
   font-size: 20px !important; }
 
-/* line 832, ../PROYECTO FINAL/sass/style.scss */
+/* line 834, ../PROYECTO FINAL/sass/style.scss */
 .contact {
   background-size: 100% 100%;
   width: 100%;
   height: 100vh; }
 
-/* line 838, ../PROYECTO FINAL/sass/style.scss */
+/* line 840, ../PROYECTO FINAL/sass/style.scss */
 .head {
   background-color: #ca35ca;
   border-radius: 5px;
@@ -779,7 +780,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   -moz-box-shadow: -2px -2px 52px 3px rgba(0, 0, 0, 0.52);
   box-shadow: -2px -2px 52px 3px rgba(0, 0, 0, 0.52); }
 
-/* line 847, ../PROYECTO FINAL/sass/style.scss */
+/* line 849, ../PROYECTO FINAL/sass/style.scss */
 .effect-1 {
   border: 0;
   outline: none;
@@ -787,7 +788,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   padding: 7px 0;
   border-bottom: 1px solid #ccc; }
 
-/* line 855, ../PROYECTO FINAL/sass/style.scss */
+/* line 857, ../PROYECTO FINAL/sass/style.scss */
 .effect-1 ~ .focus-border {
   position: absolute;
   bottom: 0;
@@ -797,17 +798,17 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   background-color: #ca35ca;
   transition: 0.4s; }
 
-/* line 865, ../PROYECTO FINAL/sass/style.scss */
+/* line 867, ../PROYECTO FINAL/sass/style.scss */
 .effect-1:focus ~ .focus-border {
   width: 100%;
   transition: 0.4s;
   left: 0; }
 
-/* line 871, ../PROYECTO FINAL/sass/style.scss */
+/* line 873, ../PROYECTO FINAL/sass/style.scss */
 .form-row {
   display: flex; }
 
-/* line 875, ../PROYECTO FINAL/sass/style.scss */
+/* line 877, ../PROYECTO FINAL/sass/style.scss */
 .btn1 {
   background: #ca35ca;
   color: white;
@@ -816,7 +817,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
   border-radius: 5px;
   height: 40px;
   width: 145px; }
-  /* line 884, ../PROYECTO FINAL/sass/style.scss */
+  /* line 886, ../PROYECTO FINAL/sass/style.scss */
   .btn1:hover {
     -webkit-box-shadow: -2px -2px 52px 3px rgba(0, 0, 0, 0.52);
     -moz-box-shadow: -2px -2px 52px 3px rgba(0, 0, 0, 0.52);

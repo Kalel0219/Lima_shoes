@@ -19,7 +19,7 @@ body {
 }
 /* Barra de navegacion */
 .ancho {
-  background-color: $color2;
+  background-color: $durazno;
   height: 6.5625rem;
   width: 100%;
 
@@ -28,18 +28,18 @@ body {
         margin-right: 20px;
 
         li {
-        display: inline-block;
+          display: inline-block;
 
-        line-height: 6.5625rem;
-        margin: 0 0.3125rem;
-        a {
-            color: rgb(8, 137, 36);
-            font-size: 1.125rem;
-            padding: 0.4375rem 0.8125rem;
-            border-radius: 3px;
-            text-transform: uppercase;
-            text-decoration: none;
-        }
+          line-height: 6.5625rem;
+          margin: 0 0.3125rem;
+          a {
+              color: $negro;
+              font-size: 1.125rem;
+              padding: 0.4375rem 0.8125rem;
+              border-radius: 3px;
+              text-transform: uppercase;
+              text-decoration: none;
+          }
         }
     }
 }
@@ -50,14 +50,14 @@ body {
 }
 
 .navegacion li a.decoracion_enlace:hover {
-  background: greenyellow;
+  background: $color4;
   transition: 0.5s;
   border-radius: 10px;
 }
 
 .boton {
   font-size: 1.875rem;
-  color: rgb(8, 137, 36);
+  color: $footer;
   float: right;
   line-height: 6.5625rem;
   margin-right: 2.5rem;
@@ -193,7 +193,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
 /*footer*/
 .pie_pagina {
   width: 100%;
-  background-color: #4ea8bc;
+  background-color: $color4;
     .grupo-1 {
         width: 100%;
         max-width: 1200px;
@@ -223,7 +223,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
             }
 
             p {
-                color: #fcd8d8;
+                color: $negro;
             }
         }
         .red-social a {
@@ -239,16 +239,16 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
             transition: all 300ms ease;
             
             &:hover {
-                color: $color3;
+                color: $aqua;
             }
         }
     }
 
     .grupo-2 {
-        background-color: #0a1a2a;
+        background-color: $footer;
         padding: 15px 10px;
         text-align: center;
-        color: #fff;
+        color: $negro;
 
         small {
             font-size: 15px;
@@ -451,7 +451,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
 }
 /*galeria fotos de Hombres*/
 .titulo_hombre h2 {
-  background-color: rgb(117, 255, 207);
+  background-color: $footer;
   text-align: center;
   font-size: 3.125rem;
 }
@@ -747,7 +747,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
 }
 
 .titulo_mujeres h2 {
-  background-color: rgb(117, 255, 207);
+  background-color: $footer;
   text-align: center;
   font-size: 3.125rem;
 }
@@ -769,12 +769,13 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
     width: 250px;
   }
   .ancho {
-    background-color: #ffd9c0;
+    background-color: $durazno;
     height: 8rem;
     width: 100%;
   }
 
   .ancho ul li a {
+
     font-size: 1rem;
   }
 }
@@ -785,7 +786,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
     padding-top: 15px;
   }
   .ancho {
-    background-color: #ffd9c0;
+    background-color: $durazno;
     height: 8rem;
     width: 100%;
   }
@@ -794,7 +795,7 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #2c3e50;
+    background: $footer;
     top: 5rem;
     left: -100%;
     text-align: center;
@@ -810,12 +811,13 @@ input[id="3"]:checked ~ .slider_paginado .slider_img_pg[for="3"] {
 
   .ancho ul li a {
     font-size: 2rem;
+    color: rgb(8, 137, 36);
   }
 
   .ancho ul li a:hover,
   .ancho ul li a.active {
     background: none;
-    color: rgb(0, 166, 255);
+    color: $durazno_2;
   }
 
   #check:checked ~ ul {
